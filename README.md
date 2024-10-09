@@ -28,5 +28,32 @@ Lottie files are a JSON-based image/animation format that uses [runtimes](https:
 or based on [this Lottie Figma plugin tutorial](https://www.youtube.com/watch?v=ajfKecCyNOs):
 
 - [Lottie plugin](https://lottiefiles.com/plugins/figma) for [Figma](https://github.com/hchiam/learning-figma) makes it much easier to create animations than trying to manually code SVGs: <https://lottiefiles.com/plugins/figma>
-    1) draw in **Figma** (use smart animate between frames) > **LottieFiles plugin** > **Export** to (a) Lottie file.
+    1) draw **frames** in **Figma** (use smart animate between frames) > select frames > **LottieFiles plugin** > **Export** to (a) Lottie file > **Save to workspace** > Download animation
+        - you should be able to download a .json or .lottie file, etc.
+        - (this will then also let you get a shareable handoff link in <https://app.lottiefiles.com> as well)
     2) bonus: Figma stroke paths will automatically get path animation suggestions in the LottieFiles plugin.
+
+## Demo
+
+Run
+
+```sh
+vite
+```
+
+to run `index.html` on <http://localhost:5173/>
+
+```html
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player
+    src="./example.json"
+    background="transparent"
+    speed="1"
+    style="width: 300px; height: 300px"
+    loop
+    controls
+    autoplay
+></lottie-player>
+```
+
+![example screenshot](example.png)
