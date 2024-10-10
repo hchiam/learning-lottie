@@ -33,6 +33,10 @@ or based on [this Lottie Figma plugin tutorial](https://www.youtube.com/watch?v=
         - (this will then also let you get a shareable handoff link in <https://app.lottiefiles.com> as well)
     2) bonus: Figma stroke paths will automatically get path animation suggestions in the LottieFiles plugin.
 
+You might want to consider [Lottielab](https://www.lottielab.com) with/without Figma to generate [animations with curved paths](https://docs.lottielab.com/editor/canvas/layer-controls-huds/motion-path/curving-a-motion-path)
+  - https://www.youtube.com/watch?v=j9KP44kj0gU
+  - https://www.youtube.com/watch?v=LooU8K3UgNE
+
 ## Demo
 
 Run
